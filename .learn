@@ -2,7 +2,7 @@ tags:
   - sql
   - advanced
   - jupyter
-  - CTEs
+  - window functions
 
 languages:
   - sql
