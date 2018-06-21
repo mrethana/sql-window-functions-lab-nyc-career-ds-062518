@@ -1,7 +1,7 @@
 
 # Window Functions Lab
 
-In this lab we will use window functions to write queries over certain segments, or "windows", of a larger table.  We will use the `OVER()` keyword in conjunction with `PARTITION BY` to perform aggregate function on specific rows of the table.
+In this lab we will use window functions to write queries over certain segments, or "windows", of a larger table.  We will use the `OVER()` keyword in conjunction with `PARTITION BY` to perform aggregate functions on specific rows of the table.
 
 ## Objectives
 
@@ -49,7 +49,7 @@ The table tracks sales across all Records-R-Sweet for three days, April 21-23.  
 
 ## Queries
 
-Write you queries in the `window_function.py` file to get the tests to pass.  As always, each query should be wrapped in a string inside each function.
+Write your queries in the `window_function.py` file to get the tests to pass.  As always, each query should be wrapped in a string inside each function.
 
 #### 1. select_distinct_total_location_sales_on_april_23
 
@@ -57,7 +57,7 @@ For all locations, select the location and its total sales for the day April 23,
 
 #### 2.  select_distinct_location_and_avg_amount_partitioned_by_location
 
-For all locations, select the location and its average sale over the three day period.
+For all locations, select the location and its average sales over the three day period.
 
 #### 3.  select_distinct_date_and_total_company_wide_sales_split_by_date_ordered_by_date
 
